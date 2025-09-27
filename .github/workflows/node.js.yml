@@ -15,3 +15,7 @@ jobs:
     steps:
       - name: 'Hello Word'
         run: echo "Hello Word"
+      - name: Dime la fecha
+        run: date
+      - name: Muestra el contenido del directorio
+        run: ls -la
